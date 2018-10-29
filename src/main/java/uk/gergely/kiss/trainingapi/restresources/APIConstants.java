@@ -6,6 +6,6 @@ package uk.gergely.kiss.trainingapi.restresources;
 public class APIConstants {
 
 	public static final String URL_DEMO = "/demo";
-	public static final String DEMO_MSG = "demo message";
+	
 
 }
