@@ -1,7 +1,8 @@
 package uk.gergely.kiss.trainingapi.restresources;
-/**API Constants
- * 
- * Containing the constants used in the API for improved dev quality and ease.
+/**
+ * Containing the constants used in the API for improved development quality and ease.
+ * @author kiss-
+ *
  */
 public class APIConstants {
 

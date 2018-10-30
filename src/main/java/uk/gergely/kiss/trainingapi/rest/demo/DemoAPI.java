@@ -12,7 +12,9 @@ import uk.gergely.kiss.trainingapi.restresources.APIConstants;
 /**
  * Demo API
  * 
- * For trying out concepts. 
+ * For trying out concepts.
+ * @author kiss-
+ *
  */
 @RestController
 public class DemoAPI {

@@ -4,8 +4,9 @@ import java.util.logging.Logger;
 
 /**
  * API Service for the DemoAPI
+ * @author kiss-
+ *
  */
-
 public interface DemoAPIService {
 	 final Logger LOGGER = Logger.getLogger(String.valueOf(DemoAPIService.class));
 		
