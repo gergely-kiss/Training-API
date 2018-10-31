@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import uk.gergely.kiss.trainingapi.dao.DemoMessageVO;
+import uk.gergely.kiss.trainingapi.model.DemoMessageVO;
 import uk.gergely.kiss.trainingapi.restresources.APIMessageResources;
 
 /**
