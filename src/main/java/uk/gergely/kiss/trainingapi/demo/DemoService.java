@@ -1,6 +1,8 @@
 package uk.gergely.kiss.trainingapi.demo;
 
 import java.util.logging.Logger;
+
+import uk.gergely.kiss.trainingapi.model.demo.DemoMessageVO;
 /**
  * Service for Demo the demo business process
  * @author kiss-
@@ -13,4 +15,6 @@ public interface DemoService {
 	 * @return String 
 	 */
 	public String getMessageFromDemoMessage();
+	
+	public DemoMessageVO getFirstDemoMessageVO();
 }

@@ -17,11 +17,15 @@ public class DemoAPIServiceImpl implements DemoAPIService {
 	 * {@inheritDoc}
 	 */
 	@Override
-	public String getDemoMessage() {
-		LOGGER.info("getDemoMessage was called");
+	public String getMessageFromDemoMessage() {
+		LOGGER.info("getMessageFromDemoMessage was called");
 		String demoMsg = demoService.getMessageFromDemoMessage();
-		LOGGER.info("getDemoMessage demoMsg: "+ demoMsg);
+		LOGGER.info("getMessageFromDemoMessage demoMsg: "+ demoMsg);
 		return demoMsg;
+	}
+	@Override
+	public DemoMessage getDemoMessage() {
+		return DemoMessageVOToDemoMessageConverter.convert(demoService.getFirstDemoMessageVO());
 	}
 
 }

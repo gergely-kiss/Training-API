@@ -15,5 +15,7 @@ public interface DemoAPIService {
 	 * @return String
 	 * Returning the predefined demo message.
 	 */
-	public String getDemoMessage();
+	public String getMessageFromDemoMessage();
+	
+	public DemoMessage getDemoMessage();
 }
