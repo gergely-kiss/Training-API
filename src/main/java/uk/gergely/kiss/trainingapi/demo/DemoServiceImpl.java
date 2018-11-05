@@ -24,7 +24,10 @@ public class DemoServiceImpl implements DemoService{
     public String getMessageFromDemoMessage() {
         return demoMessageRepository.getDemoMessageVOList().get(0).getDemoMessage();
     }
-
+    
+    /**
+	 * {@inheritDoc}
+	 */
 	@Override
 	public DemoMessageVO getFirstDemoMessageVO() {
 		return demoMessageRepository.getDemoMessageVOList().get(0);

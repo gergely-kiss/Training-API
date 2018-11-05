@@ -15,6 +15,9 @@ public interface DemoService {
 	 * @return String 
 	 */
 	public String getMessageFromDemoMessage();
-	
+	/**
+	 * Getting the first DemoMessageVO.
+	 * @return DemoMessageVO 
+	 */
 	public DemoMessageVO getFirstDemoMessageVO();
 }
