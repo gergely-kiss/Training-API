@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.restresources;
+package uk.gergely.kiss.trainingapi.rest.api.resources;
 /**
  * Containing the constants used in the API for improved development quality and ease.
  * @author kiss-

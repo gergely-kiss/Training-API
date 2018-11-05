@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.rest.demo;
+package uk.gergely.kiss.trainingapi.rest.api.demo;
 
 import java.util.logging.Logger;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import uk.gergely.kiss.trainingapi.rest.demo.service.DemoAPIService;
-import uk.gergely.kiss.trainingapi.restresources.APIConstants;
+import uk.gergely.kiss.trainingapi.rest.api.demo.service.DemoAPIService;
+import uk.gergely.kiss.trainingapi.rest.api.resources.APIConstants;
 
 /**
  * Demo API

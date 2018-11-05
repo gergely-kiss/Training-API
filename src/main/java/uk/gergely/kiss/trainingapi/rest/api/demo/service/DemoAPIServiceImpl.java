@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.rest.demo.service;
+package uk.gergely.kiss.trainingapi.rest.api.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

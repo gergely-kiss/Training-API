@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.rest.demo.service;
+package uk.gergely.kiss.trainingapi.rest.api.demo.service;
 
 import java.util.logging.Logger;
 

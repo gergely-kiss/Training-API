@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.demo;
+package uk.gergely.kiss.trainingapi.repository.demo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import uk.gergely.kiss.trainingapi.model.DemoMessageVO;
+import uk.gergely.kiss.trainingapi.model.demo.DemoMessageVO;
 
 @Repository
 public class DemoMessageRepository {

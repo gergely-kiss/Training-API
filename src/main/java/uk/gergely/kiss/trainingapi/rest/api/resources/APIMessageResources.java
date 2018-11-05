@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.restresources;
+package uk.gergely.kiss.trainingapi.rest.api.resources;
 /**
  * Java default object resources
  * @author kiss-

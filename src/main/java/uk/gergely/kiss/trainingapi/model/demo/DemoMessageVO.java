@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.model;
+package uk.gergely.kiss.trainingapi.model.demo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

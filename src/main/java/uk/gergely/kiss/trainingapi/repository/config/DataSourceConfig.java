@@ -1,4 +1,4 @@
-package uk.gergely.kiss.trainingapi.demo;
+package uk.gergely.kiss.trainingapi.repository.config;
 
 import javax.sql.DataSource;
 
