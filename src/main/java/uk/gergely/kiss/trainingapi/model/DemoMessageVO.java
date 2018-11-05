@@ -17,23 +17,34 @@ public class DemoMessageVO {
 	private Integer id;
 	
 	@Column
-	private String message;
+	private String demoMessage;
 
-	public DemoMessageVO(String message) {
-		this.message = message;
+	public DemoMessageVO(String demoMessage) {
+		this.demoMessage = demoMessage;
 	}
 
-	public String getMessage() {
-		return message;
+	public DemoMessageVO() {
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
+	public String getDemoMessage() {
+		return demoMessage;
+	}
+
+	public void setDemoMessage(String demoMessage) {
+		this.demoMessage = demoMessage;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
 	@Override
 	public String toString() {
-		return "DemoMessageVO [id=" + id + ", message=" + message + "]";
+		return "DemoMessageVO [id=" + id + ", message=" + demoMessage + "]";
 	}
 	
 	

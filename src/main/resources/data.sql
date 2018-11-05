@@ -1,0 +1,1 @@
+INSERT INTO `demo_message` (`message`) VALUES ('Hello! This is a demo!');
