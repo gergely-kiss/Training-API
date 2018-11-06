@@ -26,12 +26,12 @@ import uk.gergely.kiss.trainingapi.rest.api.resources.APIConstants;
  *
  */
 @Api
-@RequestMapping(DemoAPI.DEMO)
+//@RequestMapping(DemoAPI.DEMO)
 @Path(DemoAPI.DEMO)
 @Component
 @Consumes({ MediaType.APPLICATION_JSON })
 @Produces({ MediaType.APPLICATION_JSON })
-@RestController
+//@RestController
 public class DemoAPI {
 	
 	@Autowired
@@ -47,14 +47,14 @@ public class DemoAPI {
 	 * Demo message from APIConstants
 	 */
 	@GET
-	@RequestMapping(DemoAPI.MESSAGE)
+//	@RequestMapping(DemoAPI.MESSAGE)
 	@Path(DemoAPI.MESSAGE)
 	public String getDemo() {
 		LOGGER.info("demo was called");
 		return demoAPIService.getMessageFromDemoMessage();
 	}
 	@GET
-	@RequestMapping(DemoAPI.DEMO_MESSAGE)
+//	@RequestMapping(DemoAPI.DEMO_MESSAGE)
 	@Path(DemoAPI.DEMO_MESSAGE)
 	public DemoMessage getDemoMessage() {
 		LOGGER.info("demo was called");
